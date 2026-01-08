@@ -6,6 +6,16 @@
 double f_sqrt(double value);
 
 
+/*----------------------*/
+double fastPower(double x, unsigned int n);
+
+
+/*----------------------*/
+double nthRoot(double value, unsigned int n);
+
+
+/*----------------------*/
+
 
 
 
