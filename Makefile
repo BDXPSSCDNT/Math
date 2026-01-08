@@ -30,6 +30,9 @@ $(EXEC): $(OBJ)
 	@$(CC) -o $@ -c $< $(CFLAGS)
 
 
+c_math.o : c_math.h
+main.o : c_math.o
+
 
 .PHONY: clean mrproper run
 
